@@ -85,6 +85,7 @@ All other components will be nested on Root Component. Each module contain Compo
 Each componenet has HTML template and class.
 
 HTML- HTML template to represent a view on the browser. 
+
 Class- Class controlles the logic of that particular view.
 
 # Services- 
@@ -92,8 +93,12 @@ Business logic. Module also have services that is basically classes that contain
 
 # Architecture Summary
 Angular App- One or More module.
+
 Module- One or more component and services
+
 Component- HTML + Class
+
 Services- Business Logic
+
 Modules interact and ultimately render the view in the browser.
 
