@@ -71,7 +71,9 @@ Angular.json -- In this file we have to provide all the styles, scripts, assets.
 
 App -- This folder inside the src folder. This folder contains all the component, services.
 
-App.Module.ts -- This is the entry point to angular. And this is the meeting place for all the components. If we have to add a new component then we have to add on this file on the declarations. If we have to add a module then we have to add on the module. Provider will add all the services. Bootstrap will do the main app component. All the component will be type script file. And it will be .ts .
+main.ts -- This is the entry point of the Angular application.
+
+App.Module.ts -- This is the meeting place for all the components. If we have to add a new component then we have to add on this file on the declarations. If we have to add a module then we have to add on the module. Provider will add all the services. Bootstrap will do the main app component. All the component will be type script file. And it will be .ts .
 
 app.component.ts -- It has the selector which is the Html element. It also has the template url for the html and stylesheet for the style sheet. We can add all the component over here.
 
