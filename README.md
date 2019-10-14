@@ -38,7 +38,7 @@ Steep learning curve relative to other frameworks.
 
 $ ng new myapp ----------- create a new application
 
-$ ng serve ----------- run the dev server
+$ ng serve / npm start ----------- run the dev server
 
 $ ng build ----------- will build out our asset
 
@@ -76,6 +76,10 @@ main.ts -- This is the entry point of the Angular application.
 App.Module.ts -- This is the meeting place for all the components. If we have to add a new component then we have to add on this file on the declarations. If we have to add a module then we have to add on the module. Provider will add all the services. Bootstrap will do the main app component. All the component will be type script file. And it will be .ts .
 
 app.component.ts -- It has the selector which is the Html element. It also has the template url for the html and stylesheet for the style sheet. We can add all the component over here.
+
+# Life Cycle- 
+
+When we run the ng serve in the terminal the execution come on main.ts file. Over here app-module has been kicked start. In the app-module it again kick start the app-component. The app-component has HTML template and class to controll hte view logic. HTML file for view and Typescript  file and class App-Component to controll the view logic. 
 
 # Angular Details -
 
