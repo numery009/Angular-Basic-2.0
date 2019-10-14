@@ -70,4 +70,6 @@ App.Module.ts -- This is the entry point to angular. And this is the meeting pla
 
 app.component.ts -- It has the selector which is the Html element. It also has the template url for the html and stylesheet for the style sheet. We can add all the component over here.
 
+# Angular Details -
 
+# Module- 
