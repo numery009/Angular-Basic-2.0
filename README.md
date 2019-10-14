@@ -78,3 +78,14 @@ app.component.ts -- It has the selector which is the Html element. It also has t
 # Angular Details -
 
 # Module- 
+Each angular application should have one module. Which is called Root Module. By convention this is called AppModule.
+All other components will be nested on Root Component. Each module contain Components and Services. 
+
+# Component-
+Each componenet has HTML template and class.
+
+HTML- HTML template to represent a view on the browser. 
+Class- Class controlles the logic of that particular view.
+
+# Services- 
+Business logic. Module also have services that is basically classes that contains the business logic of the application.
