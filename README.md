@@ -6,7 +6,7 @@ AngularJS was released on 2010. It is not recommanded and should be updated to a
 
 Angular refers to version 2+. Right now we are using version 7 but 2-7 is the same frame work with few changes mostly under the hood.
 
-Why use Angular?
+# Why use Angular?
 Organized front-end structure(Component, Model, Services)
 Extremely powerful & full featured.
 All-in-one solution (Routing, HTTP, RXJS etc).
@@ -14,24 +14,28 @@ Build powerful SPA (Single Page Application) apps.
 MVC- model, view, controller design pattern.
 Type Script.
 Fantastic CLI.
-Why you should know before learning angular?
+
+# Why you should know before learning angular?
 Java Script Fundamentals (Objects, arrays, conditions etc)
 
-It may help to learn these first
+# It may help to learn these first
 Typescript
 Classes
 Hign Order Array Methods- forEach, map, filter.
 Arrow Functions
 Promises & Observables
 MVC Pattern
-Uses
+
+# Uses
 Uses TypeScript for static types (variables, functions, params)
 Component based (like other frameworks)
 Uses "services" to share data/fucntionality between components
 Concept of modules (root module, form modules, http module etc)
 Uses RxJS "observables" for async operations
 Steep learning curve relative to other frameworks.
-Angular CLI
+
+# Angular CLI
+
 $ ng new myapp ----------- create a new application
 
 $ ng serve ----------- run the dev server
@@ -50,12 +54,13 @@ $ ng generate module app-routing ---- to generate module
 
 We can use state management like ngrx and redux with Angular for large apps
 
-Installation Process
+# Installation Process
 Install the nodeJS -- sudo apt install nodejs
 Version check of nodeJS npm --version
 Install the Angular CLI -- sudo npm install -g @angular/cli
 Angular version check ng --version
-Project
+
+# Project
 After creating a project we have to open the project on the visual studio. Then we will find the following files--
 
 Package.json -- It has all the dependencies and packages. (All the libraries will be available here. It also have scripts to run and build the server.)
