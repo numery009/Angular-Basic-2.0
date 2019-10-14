@@ -19,19 +19,31 @@ Fantastic CLI.
 Java Script Fundamentals (Objects, arrays, conditions etc)
 
 # It may help to learn these first
+
 Typescript
+
 Classes
+
 Hign Order Array Methods- forEach, map, filter.
+
 Arrow Functions
+
 Promises & Observables
+
 MVC Pattern
 
 # Uses
+
 Uses TypeScript for static types (variables, functions, params)
+
 Component based (like other frameworks)
+
 Uses "services" to share data/fucntionality between components
+
 Concept of modules (root module, form modules, http module etc)
+
 Uses RxJS "observables" for async operations
+
 Steep learning curve relative to other frameworks.
 
 # Angular CLI
@@ -55,9 +67,13 @@ $ ng generate module app-routing ---- to generate module
 We can use state management like ngrx and redux with Angular for large apps
 
 # Installation Process
+
 Install the nodeJS -- sudo apt install nodejs
+
 Version check of nodeJS npm --version
+
 Install the Angular CLI -- sudo npm install -g @angular/cli
+
 Angular version check ng --version
 
 # Project
