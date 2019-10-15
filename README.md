@@ -173,3 +173,7 @@ Exp-- {{name}}
  3) Properties- DOM (Document Object Model)
  4) Attributes- Initialize Dom properties and they are done. Attribute value cannot change once they are initialized.
  5) Property value however can change
+ 
+ Note: Interpolation only works in String. For boolean property we need to user property bindings.
+ 
+ `<input [disabled]="isDisabled" id={{myId}} type="text" value="Nick">`
