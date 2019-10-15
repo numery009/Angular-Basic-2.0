@@ -129,8 +129,8 @@ Modules interact and ultimately render the view in the browser.
 
 There are 3 ways to specify the selector on component
 
-1) selector: 'app-test'   ->   '<app-test></app-test>'
+1) selector: 'app-test'   ->   <app-test></app-test>
 
-2) selector: '.app-test'  ->   '<div class="app-test"></div>'
+2) selector: '.app-test'  ->   <div class="app-test"></div>
 
-3) selector: ['app-test']  ->   '<div app-test></div>'
+3) selector: ['app-test']  ->   "<div app-test></div>"
