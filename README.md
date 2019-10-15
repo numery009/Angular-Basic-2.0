@@ -142,7 +142,7 @@ Modules interact and ultimately render the view in the browser.
          templateUrl: './app.component.html',
          styleUrls: ['./app.component.css']
 
-2) In line in the TypeScript file
+2) Inline in the TypeScript file
   
          template: `<div>
                            Inline Template
