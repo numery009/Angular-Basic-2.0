@@ -165,3 +165,11 @@ Exp-- {{name}}
          c) `<h1>{{methidName()}}</h1>`
  
  Note: We cannot assignment and access the global javascript variable with Interpolation.
+ 
+ # Attribute vs Property
+ 
+ 1) Attributes and property are not same.
+ 2) Attributes - HTML
+ 3) Properties- DOM (Document Object Model)
+ 4) Attributes- Initialize Dom properties and they are done. Attribute value cannot change once they are initialized.
+ 5) Property value however can change
