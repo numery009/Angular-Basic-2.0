@@ -133,4 +133,4 @@ There are 3 ways to specify the selector on component
 
 2) selector: '.app-test'  ->   <div class="app-test"></div>
 
-3) selector: ['app-test']  ->   "<div app-test></div>"
+3) selector: ['app-test']  ->   ** <div app-test></div> **
