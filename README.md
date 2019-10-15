@@ -177,3 +177,16 @@ Exp-- {{name}}
  Note: Interpolation only works in String. For boolean property we need to user property bindings.
  
  `<input [disabled]="isDisabled" id={{myId}} type="text" value="Nick">`
+
+# Add the routing option on the existing project -->
+
+1) Go To Index.html file on the project and add the base ref to  <base href="/">
+
+2) In the app folder, create a new file app-routing.module.ts
+
+3) Import App Routing Module in the AppRouting Module
+
+# Wildcard Route and Redirecting Routes:
+
+By using the wildcard route we can configure the 404 not found error if the user use any not configure URL keep (**)   wildcard route on bottom of all aroute
+
