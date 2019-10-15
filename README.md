@@ -134,3 +134,11 @@ Modules interact and ultimately render the view in the browser.
 2) selector: '.app-test'  ->   `<div class="app-test"></div>`
 
 3) selector: ['app-test']  ->   `<div app-test></div>` 
+
+## HTML and CSS can be seperate file or inline in the TypeScript file
+
+1) Seperate File- HTML & CSS
+
+         templateUrl: './app.component.html',
+         styleUrls: ['./app.component.css']
+
