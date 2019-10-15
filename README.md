@@ -157,11 +157,11 @@ Defining a property by using the double courly brases is called Interpolation.
 Exp-- {{name}}
 
 1) Binding a data from class to tamplate is called Interpolation- Welcome {{name}}
-2) Expression  - <h1>{{2+2}}</h1>
-3) String Concatenation - <h1>{{"Welcome" + name}}</h1>
+2) Expression  - `<h1>{{2+2}}</h1>`
+3) String Concatenation - `<h1>{{"Welcome" + name}}</h1>`
 4) Java Script property and methiod on the Curly Braces -
-         a) <h1>{{name.length}}</h1>
-         b) <h1>{{name.toUpperCase}}</h1>
-         c) <h1>{{methidName()}}</h1>
+         a) `<h1>{{name.length}}</h1>`
+         b) `<h1>{{name.toUpperCase}}</h1>`
+         c) `<h1>{{methidName()}}</h1>`
  
  Note: We cannot assignment and access the global javascript variable with Interpolation.
