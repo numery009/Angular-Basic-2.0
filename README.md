@@ -56,6 +56,8 @@ $ ng build ----------- will build out our asset
 
 $ ng generate component components/todos ---- to generate component
 
+$ ng g c department -it -is --- to generate component with inline template and inline style
+
 $ ng g c components/todos ---- to generate component
 
 $ ng generate service services/todos ---- to generate service
@@ -188,5 +190,22 @@ Exp-- {{name}}
 
 # Wildcard Route and Redirecting Routes:
 
-By using the wildcard route we can configure the 404 not found error if the user use any not configure URL keep (**)   wildcard route on bottom of all aroute
+By using the wildcard route we can configure the 404 not found error if the user use any not configure URL keep (**)   wildcard route on bottom of all route.
+
+Default Routing ->
+{Path: component: DepartmentListComponent}
+
+For Redirecting Route ->
+
+{Path: '', redirectTo:'/departments', pathmatch: full}
+3 parameter need to provide for the redirecting route
+
+path -> Redirect to and pathmatch
+path -> any
+Redirectto-> any 
+PathMatch -> Prefix and full
+
+
+
+
 
