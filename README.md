@@ -127,7 +127,7 @@ Modules interact and ultimately render the view in the browser.
 
 # app.component.ts
 
-There are 3 ways to specify the selector on component
+## There are 3 ways to specify the selector on component
 
 1) selector: 'app-test'   ->   `<app-test></app-test>`
 
