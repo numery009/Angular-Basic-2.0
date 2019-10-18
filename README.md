@@ -179,6 +179,26 @@ Exp-- {{name}}
  Note: Interpolation only works in String. For boolean property we need to user property bindings.
  
  `<input [disabled]="isDisabled" id={{myId}} type="text" value="Nick">`
+ 
+ # Class Binding
+ 
+ Class binding is useful because it allows to dynamically add or remove classes to HTML elements base on some user interaction or state on your application. You can change the classes been applied ny changing the property on our component class.
+ 
+ `[ngClass]="className"`
+ 
+ # Style binding
+ 
+ `[ngStyle]="styleName"`
+ 
+ # Event Binding
+ 
+ `<button (click)=onClick()>Create</button>
+ 
+ onClick(){
+ .......
+ concolse.log("ABC");
+ }`
+ 
 
 # Add the routing option on the existing project -->
 
