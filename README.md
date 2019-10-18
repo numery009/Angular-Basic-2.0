@@ -192,12 +192,12 @@ Exp-- {{name}}
  
  # Event Binding
  
- `<button (click)=onClick()>Create</button>
+ `<button (click)=onClick()>Create</button>`
  
- onClick(){
- .......
- concolse.log("ABC");
- }`
+ `onClick(){`
+ `.......`
+ `concolse.log("ABC");`
+ `}`
  
 
 # Add the routing option on the existing project -->
