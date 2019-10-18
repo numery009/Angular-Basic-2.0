@@ -227,6 +227,9 @@ Add or remove HTML elements
 
 3) ngFor -> Similar like For statement List. Render HTML list elements.
 
+# Component Interaction 
+
+Component sometimes need to communicate with each other. Parent component might need send data to child component. Child component aslso send data to parent component. Using `@input()` decorator child can accept input form parents. And using the output decorator `@output()` child could send out even the parents to indicate something.
 
 
 # Add the routing option on the existing project -->
