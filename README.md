@@ -231,6 +231,7 @@ Add or remove HTML elements
 
 Component sometimes need to communicate with each other. Parent component might need send data to child component. Child component aslso send data to parent component. Using `@input()` decorator child can accept input form parents. And using the output decorator `@output()` child could send out even the parents to indicate something.
 
+Note: Sending data from parent component to child component is easy. Because parent component has the child component selector. On the other hand child component does not has the parent component selector. So, easiest way to send data is event.
 
 # Add the routing option on the existing project -->
 
