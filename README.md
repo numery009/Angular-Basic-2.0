@@ -114,7 +114,43 @@ Class- Class controlles the logic of that particular view.
 
 # Services- 
 Business logic. Module also have services that is basically classes that contains the business logic of the application.
+To Solve the following to principle issue we need to use the services-
+         1) Do not repeat.
+         2) Single repository principle.
+         
+Service is nothing but a class with a specific perpose. Why do we need services?
 
+         1) Share Data -> Service will provide data to the multiple component.
+         2) Implement application logic -> We can write the business logic in the service.
+         3) External Interaction -> We can use services to connect external like databse.
+         
+Naming convertion -> filename.service.ts
+               ie -> employee.service.ts
+               
+# Dependency Injection
+To use service in Angular we have to use the Dependency Injection.
+DI as a framework -
+         1) Define the employeeService class
+         2) Registor the injector
+         3) Declare as dependency in EmployeeList and EmployeeDetails
+         
+# @Injectable
+This decorator tells Angular this service might itself the injectable dependency. If we want to inject a service to another service @injectable decorator must.
+
+# HTTP, Ovservables and RXJS
+
+         1) Observables- A sequence of items that arrive asynchronously over time.
+         
+         HTTP call -> Single Item -> HTTP Response
+         
+         2) RXJS - Reactive extentions for javascript. External library to work with observables.
+         
+         3) Example -
+                 a) HTTP get request from EmployeeService.
+                 b) Receive the observable and cast it into an employee array.
+                 c) Subcribe to the observable from employeeList and EmployeeDetails
+                 d) Assign the comployee array to the local variable.
+         
 # Architecture Summary
 Angular App- One or More module.
 
