@@ -215,6 +215,20 @@ Banana is a box is use to say two way binding. Update the property and the same 
 
 `{{VarName}}`
 
+Note : For two way binding we need to import the FormsModule on the app.module.ts file.
+
+# Structure Directives
+
+Add or remove HTML elements
+
+1) ngIf -> Similar like if statement. Only difference is render HTML instead of any logic.
+
+2) ngSwitch -> Similar like switch statement. Only difference is render HTML instead of any logic.
+
+3) ngFor -> Similar like For statement List. Render HTML list elements.
+
+
+
 # Add the routing option on the existing project -->
 
 1) Go To Index.html file on the project and add the base ref to  <base href="/">
