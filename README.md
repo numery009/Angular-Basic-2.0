@@ -101,18 +101,18 @@ When we run the ng serve in the terminal the execution come on main.ts file. Ove
 
 # Angular Details -
 
-# Module- 
+## Module- 
 Each angular application should have one module. Which is called Root Module. By convention this is called AppModule.
 All other components will be nested on Root Component. Each module contain Components and Services. 
 
-# Component-
+## Component-
 Each componenet has HTML template and class.
 
 HTML- HTML template to represent a view on the browser. 
 
 Class- Class controlles the logic of that particular view.
 
-# Services- 
+## Services- 
 Business logic. Module also have services that is basically classes that contains the business logic of the application.
 To Solve the following to principle issue we need to use the services-
          1) Do not repeat.
@@ -127,17 +127,17 @@ Service is nothing but a class with a specific perpose. Why do we need services?
 Naming convertion -> filename.service.ts
                ie -> employee.service.ts
                
-# Dependency Injection
+### Dependency Injection
 To use service in Angular we have to use the Dependency Injection.
 DI as a framework -
          1) Define the employeeService class
          2) Registor the injector
          3) Declare as dependency in EmployeeList and EmployeeDetails
          
-# @Injectable
+### @Injectable
 This decorator tells Angular this service might itself the injectable dependency. If we want to inject a service to another service @injectable decorator must.
 
-# HTTP, Ovservables and RXJS
+### HTTP, Ovservables and RXJS
 
          1) Observables- A sequence of items that arrive asynchronously over time.
          
