@@ -202,7 +202,9 @@ Exp-- {{name}}
 # Template Reference Variable
 
 `<input #myInput type="text">`
+
 `<button (click)="logMessage(myInput)">Log</button>`
+
 `Here- myInput is the Reference Variable`
 
 # Add the routing option on the existing project -->
