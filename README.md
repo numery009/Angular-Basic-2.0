@@ -233,6 +233,18 @@ Component sometimes need to communicate with each other. Parent component might 
 
 Note: Sending data from parent component to child component is easy. Because parent component has the child component selector. On the other hand child component does not has the parent component selector. So, easiest way to send data is event.
 
+# Pipes
+
+Pipes allow us to transform data before display them in the view.
+
+Builtin Pipes String Property -> lowerCase, upperCase, titleCase, slice, json.
+
+Builtin Number Pipes -> number, currency, percent.
+
+Builtin Date pipes -> date, short. 
+
+Pipe is only applicable on the view. It does not change the value of the class.
+
 # Add the routing option on the existing project -->
 
 1) Go To Index.html file on the project and add the base ref to  <base href="/">
