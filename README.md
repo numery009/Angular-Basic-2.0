@@ -207,6 +207,14 @@ Exp-- {{name}}
 
 `Here- myInput is the Reference Variable`
 
+# Two Way Binding
+
+Banana is a box is use to say two way binding. Update the property and the same time display the property.
+
+`{input [(ngModel)]="VarName" type="text">`
+
+`{{VarName}}`
+
 # Add the routing option on the existing project -->
 
 1) Go To Index.html file on the project and add the base ref to  <base href="/">
