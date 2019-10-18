@@ -281,7 +281,8 @@ Builtin Date pipes -> date, short.
 
 Pipe is only applicable on the view. It does not change the value of the class.
 
-# Add the routing option on the existing project -->
+# Routing in Angular
+## Add the routing option on the existing project -->
 
 1) Go To Index.html file on the project and add the base ref to  <base href="/">
 
@@ -289,7 +290,7 @@ Pipe is only applicable on the view. It does not change the value of the class.
 
 3) Import App Routing Module in the AppRouting Module
 
-# Wildcard Route and Redirecting Routes:
+## Wildcard Route and Redirecting Routes:
 
 By using the wildcard route we can configure the 404 not found error if the user use any not configure URL keep (**)   wildcard route on bottom of all route.
 
