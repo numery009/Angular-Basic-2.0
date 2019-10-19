@@ -54,6 +54,8 @@ $ ng serve / npm start ----------- run the dev server
 
 $ ng build ----------- will build out our asset
 
+$ ng build --prod ----------- will build for production. All files will be in the "dist" folder
+
 $ ng generate component components/todos ---- to generate component
 
 $ ng g c department -it -is --- to generate component with inline template and inline style
