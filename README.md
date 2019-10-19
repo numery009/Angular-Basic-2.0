@@ -360,3 +360,35 @@ Forms are the vital to business application. Create an experience that guides th
          5) Unit testing is a challenge.
          6) Read ability decreases with complex forms and validations.
          7) Suitable for simple scenarios.
+         
+### TDF Steps
+         1) Generate a new CLI project
+         2) Add the form HTML
+         3) Binding data.
+         4) Tracking state and validity
+         5) Providing visual feedback
+         6) Displaying error messages
+         7) Posting data to a server
+
+### Angular Form / Binding data with ngForm
+
+We can easily retrive different ngForm control values by using ngForm and ngModel directives. Data binding has 3 directive in TDF --
+         1) ngForm.
+         2) ngModel.
+         3) ngModelGroup.
+
+We can bind data using the ngModel directive and we can send this data to the server which require userForm.value.
+
+### Binding Data to a Model
+
+Binding the user model to a form is really simple. We bind properties of Model by ngModel directive. And for property binding we make use of square brackets.
+         
+         `[ngModel]="userModel.name"`
+
+Property Data Binding is one way binding. Which data flows from class to view. But it does not flow to form view to class.
+When we work on a Form we need two way binding. Two way binding is Bananain Box Syntax in ngModel directive.
+
+
+ 
+         
+         
