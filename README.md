@@ -101,6 +101,10 @@ app.component.ts -- It has the selector which is the Html element. It also has t
 
 When we run the ng serve in the terminal the execution come on main.ts file. Over here app-module has been kicked start. In the app-module it again kick start the app-component. The app-component has HTML template and class to controll hte view logic. HTML file for view and Typescript  file and class App-Component to controll the view logic. 
 
+# Update Angular Project
+
+https://update.angular.io/
+
 # Angular Details -
 
 ## Module- 
