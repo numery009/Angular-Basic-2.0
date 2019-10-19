@@ -438,5 +438,66 @@ When we work on a Form we need two way binding. Two way binding is Bananain Box 
    </tr>
 <table>
 
-         
+### For each of this classes Angular provide the ngModel properties
+
+<table>
+   <tr>
+      <td>
+         Class
+      </td>      
+      <td>
+         Property
+      </td>                 
+   </tr>   
+   <tr>
+      <td>
+        ng-untouched
+      </td>      
+      <td>
+         untouched
+      </td>                 
+   </tr>
+   <tr>
+      <td>
+        ng-touched
+      </td>      
+      <td>
+         touched
+      </td>                 
+   </tr>    
+   <tr>
+      <td>
+        ng-pristine
+      </td>      
+      <td>
+         pristine
+      </td>                 
+   </tr> 
+   <tr>
+      <td>
+        ng-dirty
+      </td>      
+      <td>
+         dirty
+      </td>                 
+   </tr>
+   <tr>
+      <td>
+        ng-valid
+      </td>      
+      <td>
+         valid
+      </td>                 
+   </tr> 
+     <tr>
+      <td>
+        ng-invalid
+      </td>      
+      <td>
+         invalid
+      </td>                 
+   </tr> 
+     
+  </table>
+
          
