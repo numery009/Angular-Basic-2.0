@@ -336,4 +336,18 @@ Load the code for the routes only when the user navigates to those routes for th
 
 {path:'/user', loadChildren:()=> omport (:/user/user.module).then(m=>m.UserModule)}
 
+# Angular Forms
 
+Forms are the vital to business application. Create an experience that guides the user efficiently and effectively through the work flow --
+
+## Developers--
+         1) Data Binding
+         2) Change Tracking
+         3) Validation
+         4) Visual Feedback
+         5) Error Message
+         6) Form Submission
+
+## Angular provide two approaches
+         1) Template Driven Forms- Heavy on the component template         
+         2) Reactive Forms - Heavy on the component class
