@@ -351,3 +351,12 @@ Forms are the vital to business application. Create an experience that guides th
 ## Angular provide two approaches
          1) Template Driven Forms- Heavy on the component template         
          2) Reactive Forms - Heavy on the component class
+         
+### Template Driven Forms (TDF)
+         1) Easy to use and similar to Angular JS Forms
+         2) Two way data binding and ngModel
+         3) Bulky HTML and minimal component code
+         4) Automatically tracks the form and form elements state and validity.
+         5) Unit testing is a challenge.
+         6) Read ability decreases with complex forms and validations.
+         7) Suitable for simple scenarios.
