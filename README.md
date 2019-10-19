@@ -297,7 +297,7 @@ By using the wildcard route we can configure the 404 not found error if the user
 Default Routing ->
 {Path: component: DepartmentListComponent}
 
-For Redirecting Route ->
+### For Redirecting Route ->
 
 {Path: '', redirectTo:'/departments', pathmatch: full}
 3 parameter need to provide for the redirecting route
@@ -307,6 +307,19 @@ path -> any
 Redirectto-> any 
 PathMatch -> Prefix and full
 
+
+# ParamMap Observable
+
+Angular has to decide it has to initialize new componentor it will reuse the same component. When we navigate back to the component Angular only reuse the component. No initialization implies on ngOninit() method. That does not get call. Hence new id newer be retrive from URL. This is the drawback of the 'SNAPSHOT'.
+
+To overcome this we have to use "paramMap Ovservable".
+
+# Relative navigation
+
+For absolute path we use "/". 
+
+this.router.navigate(['/departments', department.id]); --> This is for Absolute Path
+this.router.navigate([department.id], {relativeTo:this.route}); --> This is for Relative Path
 
 
 
