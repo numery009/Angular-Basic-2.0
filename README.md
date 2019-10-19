@@ -517,3 +517,19 @@ Bootstrap 4 also provide class for invalid.
 ### Form Validation
 
 Form validationcan can be used to disable the submit button. Form level validation will apply to all the controls of the forms.
+
+### Submitting form Data
+
+novalidate- This will prevent the browser validation from kicking in when we click on the submit button.
+
+ngSubmit- This get emitted when submit button escalate.
+
+### Express Server to receive FormData
+
+Set up the basic Express Server
+         1) Initialize new package json file -> npm init --yes
+         2) Install the dependency -> npm install --save express body-parser cors
+                  a) Express - Webserver
+                  b) bosy-parser - Middlewire handle form data
+                  c) cors- is a package to make request
+         3) Run the Node Server -> Node Server
