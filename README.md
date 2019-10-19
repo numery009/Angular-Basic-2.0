@@ -319,6 +319,7 @@ To overcome this we have to use "paramMap Ovservable".
 For absolute path we use "/". 
 
 this.router.navigate(['/departments', department.id]); --> This is for Absolute Path
+
 this.router.navigate([department.id], {relativeTo:this.route}); --> This is for Relative Path
 
 
