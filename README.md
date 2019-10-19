@@ -500,4 +500,12 @@ When we work on a Form we need two way binding. Two way binding is Bananain Box 
      
   </table>
 
-         
+### Get access the ngModel property
+
+By creating the ngModel directive 2 ways can effecct the visual way for validation. We can use our own validation class or we can use classes that our framework CSS can provide.
+
+Bootstrap 4 also provide class for invalid.
+
+`<input type="text" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" class="form-control" name="userName" [(ngModel)]="userModel.name">`
+
+
