@@ -310,13 +310,13 @@ Redirectto-> any
 PathMatch -> Prefix and full
 
 
-# ParamMap Observable
+## ParamMap Observable
 
 Angular has to decide it has to initialize new componentor it will reuse the same component. When we navigate back to the component Angular only reuse the component. No initialization implies on ngOninit() method. That does not get call. Hence new id newer be retrive from URL. This is the drawback of the 'SNAPSHOT'.
 
 To overcome this we have to use "paramMap Ovservable".
 
-# Relative navigation
+## Relative navigation
 
 For absolute path we use "/". 
 
@@ -324,6 +324,12 @@ this.router.navigate(['/departments', department.id]); --> This is for Absolute 
 
 this.router.navigate([department.id], {relativeTo:this.route}); --> This is for Relative Path
 
+## Dynamic Imports for Laze Routes
 
+Load the code for the routes only when the user navigates to those routes for the first time.
+
+{path:'/user', loadChildren:'./user/user.module #UserModule'}
+
+{path:'/user', loadChildren:()=> omport (:/user/user.module).then(m=>m.UserModule)}
 
 
