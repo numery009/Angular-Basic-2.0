@@ -389,6 +389,54 @@ Property Data Binding is one way binding. Which data flows from class to view. B
 When we work on a Form we need two way binding. Two way binding is Bananain Box Syntax in ngModel directive.
 
 
+ ### Tracking State and Validity
  
+ <table>
+   <tr>
+      <td>
+         State
+      </td>      
+      <td>
+         Class if true
+      </td>            
+      <td>
+         Class if flase
+      </td>
+   </tr>    
+   <tr>
+      <td>
+         This control has been visited
+      </td>      
+      <td>
+         ng-touched
+      </td>      
+      <td>
+         ng-untouched
+      </td>
+   </tr>         
+   <tr>
+      <td>
+         This control's value has changed
+      </td>      
+      <td>
+         ng-dirty
+      </td>      
+      <td>
+         ng-pristine
+      </td>
+   </tr>   
+   <tr>
+      <td>
+         This control's value is valid
+      </td>      
+      <td>
+         ng-valid
+      </td>      
+      <td>
+         ng-invalid
+      </td>
+   </tr>
+<table>
+
          
          
