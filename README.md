@@ -508,4 +508,12 @@ Bootstrap 4 also provide class for invalid.
 
 `<input type="text" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" class="form-control" name="userName" [(ngModel)]="userModel.name">`
 
+### Error Message
 
+1) For the single validation rules create an element that contains error message. Conditially show  the message base on the state. And apply show the message base ont the state. And apply the appropriate style on the error message.
+
+2) For multiple validation rule create a block that gets render only if the error object is defined and the filed is invalid or visited. With in the block create a seperate error messages base on the validation that is been applied.
+
+### Form Validation
+
+Form validationcan can be used to disable the submit button. Form level validation will apply to all the controls of the forms.
