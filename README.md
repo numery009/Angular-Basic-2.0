@@ -567,11 +567,11 @@ Set up the basic Express Server
   ### FormGroup and FormControl
   
                   |------------------------------------------------------------|              
-                  |              UserName - > FormControl                     |          
+                  |              UserName - > FormControl                      |          
                   |                                                            |  
-     FormGroup    |              Password - > FormControl                     |  
+     FormGroup    |              Password - > FormControl                      |  
                   |                                                            |  
-                  |              Confirm Password - > FormControl             |  
+                  |              Confirm Password - > FormControl              |  
                   |                                                            |  
                   |------------------------------------------------------------|             
   
