@@ -564,14 +564,14 @@ Set up the basic Express Server
    Note: In the HTML there is no difference between Template Driven Form and Reactive Form. HTML always in the component              template.      
    
   
-  ### Form Design by Reactive Form
+  ### FormGroup and FormControl
   
                   |------------------------------------------------------------|              
-                  |              UserName - > Form Control                     |          
+                  |              UserName - > FormControl                     |          
                   |                                                            |  
-     FormGroup    |              Password - > Form Control                     |  
+     FormGroup    |              Password - > FormControl                     |  
                   |                                                            |  
-                  |              Confirm Password - > Form Control             |  
+                  |              Confirm Password - > FormControl             |  
                   |                                                            |  
                   |------------------------------------------------------------|             
   
