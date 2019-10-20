@@ -585,3 +585,16 @@ Set up the basic Express Server
       
       And FormGroup.value will provide the value that will be posted on the server.
          
+  ### Managing Control Values
+         
+         1) SetValue- is very strict for maintaining the structure of the from group. We have to pass all the form control                         values. 
+         2) PatchValue- is not strict for maintaining the structure of the form group. We can use it to pass few of the form                         control values. 
+         3) FormBuilder- This is a service. Which will fullfill the purpose of FormGroup and FormControl.
+         
+         4) Reactive Form Validation- In the reactive Form Validation rules are specified on the component class instead of                                       template.
+         
+  ### Reactive Form Validation Steps
+  
+         1) Apply the validation rule to the FormControl.
+         2) Provide the visual feedback for the validation.
+         3) Display the appropriate error message for the validation.
