@@ -566,17 +566,16 @@ Set up the basic Express Server
   
   ### Form Design by Reactive Form
   
-                  |------------------------------------------------------------              
-                  |              UserName - > Form Control
-                  |              
-     FormGroup    |              Password - > Form Control
-                  |              
-                  |              Confirm Password - > Form Control
-                  |              
-                  |-------------------------------------------------------------             
- 
+                  |------------------------------------------------------------|              
+                  |              UserName - > Form Control                     |          
+                  |                                                            |  
+     FormGroup    |              Password - > Form Control                     |  
+                  |                                                            |  
+                  |              Confirm Password - > Form Control             |  
+                  |                                                            |  
+                  |------------------------------------------------------------|             
   
-                                 Registration Form                     
+                                       Registration Form                     
    
   ### Three steps to create reactive form in Angular
          
