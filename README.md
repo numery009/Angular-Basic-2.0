@@ -534,3 +534,55 @@ Set up the basic Express Server
                   b) bosy-parser - Middlewire handle form data
                   c) cors- is a package to make request
          3) Run the Node Server -> Node Server
+
+### Reactive Form Type
+         
+         1) Form Group
+         2) Form Control
+         
+### Reactive Form Advantage
+         
+         1) Code and logic resides in the component class
+         2) No two way binding
+         3) Well suited for complex scenarios
+         4) Dynamic form fields
+         5) Custom validation
+         6) Dynamic Validation
+         7) Unit Testing
+ 
+ ### Steps need to performs for Reactive Form
+         
+         1) CLI generated project
+         2) Add the form HTML
+         3) Create the form model
+         4) Manage the form control values
+         5) Form Builder service
+         6) Validation- Simple, Custom, cross-field and Dynamic
+         7) Dynamic form controls
+         8) Submitting form Data
+         
+   Note: In the HTML there is no difference between Template Driven Form and Reactive Form. HTML always in the component              template.      
+   
+  
+  ### Form Design by Reactive Form
+  
+                  |------------------------------------------------------------              
+                  |              UserName - > Form Control
+                  |              
+     FormGroup    |              Password - > Form Control
+                  |              
+                  |              Confirm Password - > Form Control
+                  |              
+                  |-------------------------------------------------------------             
+ 
+  
+                                 Registration Form                     
+   
+  ### Three steps to create reactive form in Angular
+         
+         1) Define the HTML form in component template.
+         2) Define the Form Model in the Component class
+         3) Use the directive provided by the "Reactive- Forms" module to associate model to the view.
+      
+      And FormGroup.value will provide the value that will be posted on the server.
+         
