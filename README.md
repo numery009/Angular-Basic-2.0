@@ -589,8 +589,7 @@ Set up the basic Express Server
          
          1) SetValue- is very strict for maintaining the structure of the from group. We have to pass all the form control values. 
          2) PatchValue- is not strict for maintaining the structure of the form group. We can use it to pass few of the form control values. 
-         3) FormBuilder- This is a service. Which will fullfill the purpose of FormGroup and FormControl.
-         
+         3) FormBuilder- This is a service. Which will fullfill the purpose of FormGroup and FormControl.         
          4) Reactive Form Validation- In the reactive Form Validation rules are specified on the component class instead of template.
          
   ### Reactive Form Validation Steps
